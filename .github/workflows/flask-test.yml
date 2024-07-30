@@ -26,7 +26,7 @@ jobs:
     - name: Test Flask App
       run: |
         sleep 10
-        curl http://127.0.0.1:8001
+        curl -v http://127.0.0.1:8001
 
     - name: Stop and remove Docker container
       run: |
